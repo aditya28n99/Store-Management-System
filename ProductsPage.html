@@ -23,21 +23,15 @@
 
     <section class="sections container Orders-box">
         <div class="left-section">
-            <h1 class="heading">Orders From Customers</h1>
-            <h3 >Counts: <span id="Count-orders"></span> </h3>
+            <h1 class="heading">All Products</h1>
             <h2>Filter</h2>
+            <h3 >Counts: <span id="Count-orders"></span> </h3>
             <div class="label-box">
                 <label for="checkbox">
-                <input type="checkbox" checked>New
+                <input type="checkbox" checked>Expired
                 </label>
                 <label for="checkbox">
-                <input type="checkbox" checked>Packed
-                </label>
-                <label for="checkbox">
-                <input type="checkbox" checked>InTransit
-                </label>
-                <label for="checkbox">
-                <input type="checkbox" checked>Delivered
+                <input type="checkbox" checked>Low Stock
                 </label>
             </div>
             
@@ -47,19 +41,20 @@
             <thead class="T-head">
                 <tr>
                     <th>Id</th>
-                    <th>Custemers</th>
-                    <th>Date</th>
-                    <th>Amount</th>
-                    <th>status</th>
+                    <th>Product Name</th>
+                    <th>Product Brand</th>
+                    <th>Expiry Date</th>
+                    <th>Unit Price</th>
+                    <th>Stock</th>
                 </tr>
             </thead>
-            <tbody class="T-body">
+            <tbody class="t-body">
 
             </tbody>
            </table>
         </div>
     </section>
 
-    <script src="OrdersPage.js"></script>
+    <script src="ProductsPage.js"></script>
 </body>
 </html>
