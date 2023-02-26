@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dosis:wght@600&family=Genos:wght@500&family=Montserrat&family=Mynerve&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Dosis', sans-serif;
+}
+h4{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h5{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h6{
+    font-family: 'Mynerve', cursive;
+}

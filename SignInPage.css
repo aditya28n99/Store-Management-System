@@ -1,0 +1,45 @@
+
+.header-section{
+    width: 100%;
+    box-shadow: 0 0 4px 6px gray;
+}
+nav{
+    padding: 20px;
+    margin: 10px;
+    margin-top: 0   ;
+}
+nav h2{
+    margin: 0 20px;
+}
+nav h2 span{
+    color: green;
+    font-family: 'Mynerve', cursive;
+    font-weight: bold;
+}
+.container{
+    width: 50%;
+    margin: 50px auto;
+    /* border: 2px solid red; */
+}
+.sign-in-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-in-box h1,input,button{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.sign-in-box input{
+    border: none;
+    border-bottom: 3px solid yellowgreen;
+    outline: none;
+}
+.sign-in-box button{
+    border: 1px solid gray;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    background-color: darkolivegreen;
+}
