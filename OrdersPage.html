@@ -15,14 +15,49 @@
     <section class="sections header-section">
         <nav>
             <h2 class="logo">Adi<span>Pharma</span></h2>
-            <a href="#">All Orders</a>
+            <a href="OrdersPage.html">All Orders</a>
             <a href="#">All Products</a>
             <a href="#">All Users</a>
         </nav>
     </section>
 
-    <section class="sections container">
-        
+    <section class="sections container Orders-box">
+        <div class="left-section">
+            <h1 class="heading">Orders From Customers</h1>
+            <h3 >Counts: <span id="Count-orders"></span> </h3>
+            <h2>Filter</h2>
+            <div class="label-box">
+                <label for="checkbox">
+                <input type="checkbox" checked>New
+                </label>
+                <label for="checkbox">
+                <input type="checkbox" checked>Packed
+                </label>
+                <label for="checkbox">
+                <input type="checkbox" checked>InTransit
+                </label>
+                <label for="checkbox">
+                <input type="checkbox" checked>Delivered
+                </label>
+            </div>
+            
+        </div>
+        <div class="right-section">
+           <table>
+            <thead class="T-head">
+                <tr>
+                    <th>Id</th>
+                    <th>Custemers</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>status</th>
+                </tr>
+            </thead>
+            <tbody class="T-body">
+
+            </tbody>
+           </table>
+        </div>
     </section>
 
     <script src="OrdersPage.js"></script>

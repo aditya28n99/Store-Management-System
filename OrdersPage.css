@@ -15,3 +15,44 @@ nav a:hover{
     border-bottom: 2px solid yellowgreen;
     color: black;
 }
+.Orders-box{
+    display: flex;
+}
+.left-section{
+    width: 20%;
+    /* border: 2px solid green; */
+}
+.left-section h1,h3,h2{
+    margin: 25px auto;
+}
+.label-box{
+    display: flex;
+    flex-direction: column;
+}
+.label-box label input{
+    width: 20px;
+    margin: 20px auto;
+}
+.right-section{
+    width: 80%;
+    /* border: 2px solid blue; */
+}
+table{
+    margin: auto;
+    margin-top: 13%;
+    border-collapse: collapse;
+}
+tr{
+    /* background-color: lightgray; */
+}
+th{
+    padding: 10px;
+    border-bottom: 2px solid gray;
+    width: 5%;
+}
+td{
+    padding: 25px;
+    border-bottom: 2px solid gray;
+    width: 5%;
+    text-align: center;
+}
