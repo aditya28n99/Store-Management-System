@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="CustomeCss.css">
     <link rel="stylesheet" href="SignInPage.css">
+    <link rel="stylesheet" href="UsersPage.css">
     <link rel="stylesheet" href="OrdersPage.css">
 
     <title>Welcome to AdiPharma</title>
@@ -21,40 +22,31 @@
         </nav>
     </section>
 
-    <section class="sections container Orders-box">
-        <div class="left-section">
-            <h1 class="heading">All Products</h1>
-            <h2>Filter</h2>
-            <h3 >Counts: <span id="Count-orders"></span> </h3>
-            <div class="label-box">
-                <label for="checkbox">
-                <input type="checkbox" checked>Expired
-                </label>
-                <label for="checkbox">
-                <input type="checkbox" checked>Low Stock
-                </label>
-            </div>
-            
+    <section class="sections container Users-box">
+        <div class="upper-section">
+            <h1 class="heading">All Users</h1>
+            <input type="search" placeholder="User details"><label for="input">Search</label>
         </div>
-        <div class="right-section">
+        <div class="lower-section">
            <table>
             <thead class="T-head">
                 <tr>
                     <th>Id</th>
-                    <th>Product Name</th>
-                    <th>Product Brand</th>
-                    <th>Expiry Date</th>
-                    <th>Unit Price</th>
-                    <th>Stock</th>
+                    <th>User Avatar</th>
+                    <th>Full Name</th>
+                    <th>Date of Birth</th>
+                    <th>Gender</th>
+                    <th>Current Location</th>
                 </tr>
             </thead>
             <tbody class="t-body">
 
             </tbody>
            </table>
+           <div id="lod" ></div>
         </div>
     </section>
 
-    <script src="ProductsPage.js"></script>
+    <script src="UsersPage.js"></script>
 </body>
 </html>

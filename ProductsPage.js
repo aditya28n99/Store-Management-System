@@ -10,8 +10,6 @@ Products.send();
 let totalProducts;
 Products.onreadystatechange = function(){
     if(this.status == 200 && this.readyState == 4){
-        
-        alert("Api succs")
         totalProducts = JSON.parse(this.response);
 
         for(let i = 0; i<totalProducts.length; i++){
@@ -29,6 +27,11 @@ Products.onreadystatechange = function(){
     }
     else{
         console.log("NOT successs")
+        // let LodingGif = document.createElement("img");
+        // LodingGif.src = "https://i.gifer.com/origin/34/34338d26023e5515f6cc8969aa027bca_w200.gif";
+        // LodingGif.className = "Loding-gif";
+        // let lodDiv = document.getElementById("lod");
+        // lodDiv.appendChild(LodingGif);
     }
 }
 

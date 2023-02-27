@@ -1,0 +1,13 @@
+
+
+.upper-section input{
+    border: none;
+    border-bottom: 3px solid yellowgreen;
+    outline: none;
+    margin-top: 100px;
+}
+.upper-section label{
+    border: 3px solid yellowgreen;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
